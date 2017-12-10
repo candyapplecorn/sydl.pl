@@ -7,3 +7,13 @@ After I learned my first programming language, C++, I took a class on perl. I en
 I uploaded this because I will want to use it on other machines in the future and since github is in the cloud, I don't have to worry about losing this script now. 
 
 **It is in the cloud, IT IS NOW ETERNAL**
+
+## Don't use this script
+
+Downloading videos from YouTube and extracting just the audio segment is easy with plain youtube-dl:
+
+```bash
+youtube-dl -x [url]
+```
+
+__-x__ extracts the audio. Output format may be specified, but if you can't tell the difference between different audio formats, then who cares?
